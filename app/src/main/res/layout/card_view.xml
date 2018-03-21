@@ -18,12 +18,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/ImageID"
-            android:layout_width="74dp"
-            android:layout_marginLeft="50sp"
-            android:layout_height="72dp"
-            android:background="@mipmap/ic_launcher_round"/>
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="74dp"
+                android:layout_height="72dp"
+                android:layout_marginLeft="50sp"
+                android:background="@mipmap/ic_launcher_round" />
 
         <TextView
             android:id="@+id/Album"
@@ -34,16 +34,7 @@
             android:layout_marginLeft="50sp"
             android:text="Dummy" />
 
-            <TextView
-                android:layout_marginLeft="-75sp"
-                android:layout_marginTop="40sp"
-                android:id="@+id/Artist"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Dummys"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
-
-    </LinearLayout>
+        </LinearLayout>
     </android.support.v7.widget.CardView>
 
 
