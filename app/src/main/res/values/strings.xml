@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FinalProject</string>
+    <string name="home_page_text">There\'s no album present at this moment.</string>
+    <string name="album_search">Search an Album</string>
 </resources>
